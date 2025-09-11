@@ -1,0 +1,33 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#tarefa {
+    list-style-type: none;
+    padding: 10;
+    width: 200px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
