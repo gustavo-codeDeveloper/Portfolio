@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; /*Rolagem suave*/
+}
+ 
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    padding: 20px; /* Recria o espaçamento (p-3) */
+}
+
+/* Estilo da imagem de perfil */
+header img {
+    border-radius: 50%; /* Recria a forma arredondada (rounded-circle) */
+}
+
+/* Estilo da navegação (nav) */
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links (justify-content-center) */
+    list-style: none; /* Remove a formatação padrão de lista */
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    padding: 8px 15px; /* Recria o espaçamento (nav-link) */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff; /* Efeito de hover */
+}
+
+/* Estilo para as seções */
+#sobre-mim {
+    max-width: 960px; /* Define uma largura máxima para o conteúdo (container) */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 15px;
+}
+
+section {
+    margin-top: 3rem; /* Recria o espaçamento vertical (my-5) */
+    margin-bottom: 3rem; /* Recria o espaçamento vertical (my-5) */
+}
+
+/* Estilo para a seção social */
+#social {
+    text-align: center; /* Recria o alinhamento de texto (text-center) */
+}
+
+#social a {
+    font-size: 28px; /* Aplica o tamanho da fonte */
+    color: #333;
+    margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#social a:hover {
+    color: #007bff;
+}

@@ -8,6 +8,34 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgba(100, 125, 0, 0.2));
-    
+    font-family: Arial, sans-serif; /* Define uma fonte padrão(Olhar outras) */
 }
+
+header {}
+
+header img {
+    height: 300px;
+    width: 170px;
+}
+
+/* Estilo da navegação (nav) */
+nav {}
+
+nav a {}
+
+nav a:hover {}
+
+
+/* Estilo para as seções */
+
+section {}
+
+/* Estilo para a seção social */
+#sobre-mim {}
+
+/* Estilo para a seção social */
+#social {}
+
+#social a {}
+
+#social a:hover {} /*deixar uma cor expecifica para cada icone*/
